@@ -6,214 +6,325 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/navigate.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header class="header">
-      <img class="logo-img" src="/img/logo.svg" alt="logo">
-      <nav class="header-navigate">
-        <ul class="header-navigate-element-wrapper">
-          <li class="header-navigate-element"><a class="header-navigate-link" href="#">ALL PRODUCTS</a></li>
-          <li class="header-navigate-element"><a class="header-navigate-link" href="#">SOLUTIONS</a></li>
-          <li class="header-navigate-element"><a class="header-navigate-link" href="#">ABOUT</a></li>
-          <li class="header-navigate-element"><a class="header-navigate-link" href="#">SUPPORT</a></li>
+      <img class="header-logo" src="./img/header/logo.svg" alt="logo">
+      <nav class="navigate">
+        <ul class="nav-element-wrapper">
+          <li><a class="nav-link text-gold" href="">Home</a></li>
+          <li><a class="nav-link" href="">About Us</a></li>
+          <li><a class="nav-link" href="">Services</a></li>
+          <li><a class="nav-link" href="">Pages</a></li>
+          <li><a class="nav-link" href="">Contact Us</a></li>
         </ul>
       </nav>
-      <div class="header-button-wrapper">
-        <button class="header-button-search"><img class="header-button-search-img" src="/img/search.svg"
-            alt="search"></button>
-        <button class="header-button-basket"><img class="header-button-basket-img" src="/img/basket.svg"
-            alt="basket"></button>
-      </div>
     </header>
-    <main class="main">
-      <div class="new-phones-wrapper">
-        <button class="arrow-left-button">
-          <img class="arrow-left" src="/img/arrow-left.svg" alt="arrow">
-        </button>
-        <div class="new-phones-section-content">
-          <h1 class="new-phones-header">The new phones are here take a look.</h1>
-          <p class="new-phones-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
-            aliquam, tempor. Faucibus morbi turpis.</p>
-          <button class="new-phones-button button-explore">Explore</button>
+    <main>
+      <section class="section-create">
+        <div class="section-create-header-content">
+          <h1 class="create-section-header">Let's Create Your Dream Interior</h1>
+          <p class="create-section-text">The world needs innovators and problem solvers who turn challenges into greater
+            opportunities.</p>
+          <div class="button-wrapper">
+            <button class="create-section-button">Get Started</button>
+            <img class="button-arrow" src="./img/main/button-arrow.svg" alt="button-arrow">
+          </div>
         </div>
-        <img class="three-phone-img" src="/img/three-phone.png" alt="phone">
-        <button class="arrow-right-button">
-          <img class="arrow-right" src="/img/margin-right.svg" alt="arrow">
-        </button>
-      </div>
-      <section class="section-shop">
-        <h2 class="section-shop-header section-header">Shop our latest offers and categories</h2>
-        <p class="section-shop-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
-          aliquam, tempor. Faucibus morbi turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="section-shop-content-wrapper">
-          <div class="section-shop-content-block laptop">
-            <img class="section-shop-content-img laptop-img" src="/img/laptop.png" alt="laptop">
-            <h2 class="section-shop-content-header laptop-header">Laptops</h2>
-            <p class="section-shop-content-text laptop-text">True Laptop Solution</p>
+        <div class="create-section-text-wrapper">
+          <div class="create-section-text-block">
+            <h2 class="create-section-block-header">Interior Design</h2>
+            <p class="create-section-block-text create-section-block-text-width-1">Enhancing the interior to achieve a
+              healthier environment for the
+              people using right space.</p>
+            <div class="create-section-block-button-wrapper">
+              <p class="create-section-block-button-text">View More</p>
+              <button class="create-section-block-button-arrow"><img class="create-section-block-button-arrow-img" src="./img/main/button-arrow-2.svg" alt="button-arrow"></button>
+            </div>
           </div>
-          <div class="section-shop-content-block tablet">
-            <h2 class="section-shop-content-header tablet-header">Tablet</h2>
-            <p class="section-shop-content-text tablet-text">Empower your work</p>
-            <img class="section-shop-content-img tablet-img" src="/img/tablet.png" alt="tablet">
+          <div class="create-section-text-block">
+            <h2 class="create-section-block-header">Furniture</h2>
+            <p class="create-section-block-text create-section-block-text-width-2">Movable articles that are used to
+              make a room or building suitable for
+              living or working.</p>
+            <div class="create-section-block-button-wrapper">
+              <p class="create-section-block-button-text">View More</p>
+              <button class="create-section-block-button-arrow"><img class="create-section-block-button-arrow-img" src="./img/main/button-arrow-2.svg" alt="button-arrow"></button>
+            </div>
           </div>
-          <div class="section-shop-content-block phones">
-            <img class="section-shop-content-img phones-img" src="/img/phone.png" alt="phones">
-            <h2 class="section-shop-content-header phones-header">Phones</h2>
-            <p class="section-shop-content-text phones-text">Your day to day life</p>
-          </div>
-          <div class="section-shop-content-block watch">
-            <img class="section-shop-content-img watch-img" src="/img/watch.png" alt="watch">
-            <div class="watch-text-wrapper">
-              <h2 class="section-shop-content-header watch-header">Watch</h2>
-              <p class="section-shop-content-text watch-text">Not just stylisht</p>
+          <div class="create-section-text-block">
+            <h2 class="create-section-block-header">Flooring</h2>
+            <p class="create-section-block-text create-section-block-text-width-3">Thin object any finished material
+              applied over a floor structure to
+              provide a walking surface.</p>
+            <div class="create-section-block-button-wrapper">
+              <p class="create-section-block-button-text">View More</p>
+              <button class="create-section-block-button-arrow"><img class="create-section-block-button-arrow-img" src="./img/main/button-arrow-2.svg" alt="button-arrow"></button>
             </div>
           </div>
         </div>
       </section>
-      <section class="section-save">
-        <h2 class="section-save-header section-header">Save on our most selled items.</h2>
-        <p class="section-save-text section-text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
-        <div class="section-save-content-wrapper">
-          <div class="section-save-content-block">
-            <img class="section-save-content-img" src="/img/pro-13.png" alt="MacBook Pro 13">
-            <h3 class="section-save-content-header">MacBook Pro 13</h3>
-            <p class="section-save-content-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-            <p class="section-save-content-price price-margin">$ 1,200.00 USD</p>
+      <section class="section-tackle">
+        <div class="section-tackle-content">
+          <h2 class="section-tackle-header">We Tackle The Most Challenging Designs</h2>
+          <p class="section-tackle-text">The world needs innovators and problem solvers who turn challenges into
+            greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.
+          </p>
+          <div class="section-tackle-phone-wrapper">
+            <div class="section-tackle-phone-image-wrapper">
+              <img class="section-tackle-phone-image" src="./img/main/phone.svg" alt="phone">
+            </div>
+            <p class="section-tackle-phone-text"><span class="section-tackle-phone-number">012345678</span> Call Us
+              Anytime</p>
           </div>
-          <div class="section-save-content-block">
-            <img class="section-save-content-img" src="/img/watch-galaxy.png" alt="Smart Galaxy Watch 3">
-            <h3 class="section-save-content-header">Smart Galaxy Watch 3</h3>
-            <p class="section-save-content-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit...</p>
-            <p class="section-save-content-price">$ 199.00 USD</p>
+          <div class="section-tackle-button-wrapper">
+            <button class="section-tackle-button">Get Free Estimate</button>
+            <img class="section-tackle-button-arrow" src="./img/main/button-arrow.svg" alt="button-arrow">
           </div>
-          <div class="section-save-content-block">
-            <img class="section-save-content-img" src="/img/air-mi-1.png" alt="MacBook Air M1">
-            <h3 class="section-save-content-header">MacBook Air M1</h3>
-            <p class="section-save-content-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit...</p>
-            <p class="section-save-content-price">$ 1,009.00 USD</p>
+        </div>
+        <img class="section-tackle-img" src="./img/main/image-2.jpg" alt="">
+      </section>
+      <section class="section-people">
+        <h2 class="section-people-header">What the People Thinks About Interno</h2>
+        <div class="section-people-content">
+          <div class="section-people-user-wrapper">
+            <div class="section-people-user-image-wrapper">
+              <img class="section-people-user-image" src="./img/main/people-1.jpg" alt="people-1">
+              <p class="section-people-user-image-text-bold">Lisa Clairton <span
+                  class="section-people-user-image-text">New York, USA</span></p>
+            </div>
+            <p class="section-people-text">We selected Interno interior because of rigorous design background &
+              education.</p>
           </div>
-          <div class="section-save-content-block">
-            <img class="section-save-content-img" src="/img/ipad.png" alt="Ipad">
-            <h3 class="section-save-content-header">iPad</h3>
-            <p class="section-save-content-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit...</p>
-            <p class="section-save-content-price">$ 610.00 USD</p>
+          <div class="section-people-user-wrapper">
+            <div class="section-people-user-image-wrapper">
+              <img class="section-people-user-image" src="./img/main/people-2.jpg" alt="people-2">
+              <p class="section-people-user-image-text-bold section-people-user-image-text-bold-letter-spacing">David
+                Knight <span class="section-people-user-image-text">Sydney, Australia</span></p>
+            </div>
+            <p class="section-people-text">The team exceeded our expectations and emerged as leaders of our project’s.
+            </p>
+          </div>
+          <div class="section-people-user-wrapper">
+            <div class="section-people-user-image-wrapper">
+              <img class="section-people-user-image" src="./img/main/people-3.jpg" alt="people-3">
+              <p class="section-people-user-image-text-bold">Lisa Clairton <span
+                  class="section-people-user-image-text">Paris, France</span></p>
+            </div>
+            <p class="section-people-text">They balanced the architectural vision and the project realities beautifully.
+            </p>
           </div>
         </div>
       </section>
-      <section class="section-see">
-        <h2 class="section-see-header section-header">See the best around here</h2>
-        <p class="section-see-text section-text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
-        <div class="section-see-content-wrapper">
-          <div class="section-see-content-block">
-            <p class="section-see-content-text">Smart light bulb pack</p>
-            <h3 class="section-see-content-header">Latest and gratest</h3>
-            <button class="section-see-content-button button-explore">Explore</button>
-            <img class="section-see-content-img" src="/img/two-watch.png" alt="watch">
+      <div class="brand-list">
+        <img class="brand-list-element-1 brand-list-element" src="./img/main/brand-1.svg" alt="brand-1">
+        <img class="brand-list-element-2 brand-list-element" src="./img/main/brand-2.svg" alt="brand-2">
+        <img class="brand-list-element-3 brand-list-element" src="./img/main/brand-3.svg" alt="brand-3">
+        <img class="brand-list-element-4 brand-list-element" src="./img/main/brand-4.svg" alt="brand-4">
+        <img class="brand-list-element-5 brand-list-element" src="./img/main/brand-5.svg" alt="brand-5">
+      </div>
+      <section class="section-recent">
+        <h2 class="section-recent-header">Recent Projects</h2>
+        <p class="section-recent-text">With tools to make every part of your process more human and a support team
+          excited to help you, getting started with us never been easier.</p>
+        <div class="section-recent-content-wrapper">
+          <div class="section-recent-content-block">
+            <img class="section-recent-content-block-img" src="./img/main/image-3.jpg" alt="">
+            <p class="section-recent-content-block-text-bold section-recent-img-1">Winery Dry Creek Building
+            </p>
+            <span class="section-recent-content-block-text">Art Modern</span>
+            <div class="section-recent-content-block-arrow-wrapper">
+              <img class="section-recent-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+            </div>
           </div>
-          <div class="section-see-content-block">
-            <p class="section-see-content-text">Smart light bulb pack</p>
-            <h3 class="section-see-content-header">Best selling</h3>
-            <button class="section-see-content-button button-explore">Explore</button>
-            <img class="section-see-content-img" src="/img/notebook-stars.png" alt="notebook">
+          <div class="section-recent-content-block">
+            <img class="section-recent-content-block-img" src="./img/main/img-4.jpg" alt="">
+            <p class="section-recent-content-block-text-bold section-recent-img-2">Creative Workplace Design
+            </p>
+            <span class="section-recent-content-block-text">Minimalist</span>
+            <div class="section-recent-content-block-arrow-wrapper">
+              <img class="section-recent-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+            </div>
           </div>
-          <div class="section-see-content-block">
-            <p class="section-see-content-text">Smart light bulb pack</p>
-            <h3 class="section-see-content-header">Every product</h3>
-            <button class="section-see-content-button button-explore">Explore</button>
-            <img class="section-see-content-img" src="/img/notebook-phone.png" alt="notebook">
+          <div class="section-recent-content-block">
+            <img class="section-recent-content-block-img" src="./img/main/img-5.jpg" alt="">
+            <p class="section-recent-content-block-text-bold section-recent-img-3">Bedroom Interior Pot Work
+            </p>
+            <span class="section-recent-content-block-text">Modern</span>
+            <div class="section-recent-content-block-arrow-wrapper">
+              <img class="section-recent-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="section-ideas">
-        <h2 class="section-ideas-header section-header">Ideas have a place here</h2>
-        <p class="section-ideas-text section-text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
-        <div class="section-ideas-content-wrapper">
-          <img class="section-ideas-content-img" src="/img/book-photo.png" alt="book">
-          <div class="section-ideas-content-text-wrapper">
-            <p class="section-ideas-content-text">We Make It Easy To Find The Great Design Talent, Easier...</p>
-            <p class="section-ideas-content-text">Road Design Handbook For The International Road...</p>
-            <p class="section-ideas-content-text">The Best Kept Secrets About Creative People</p>
-            <p class="section-ideas-content-text">We Make It Easy To Find The Great Design Talent, Easier...</p>
-          </div>
-        </div>
-        <div class="section-ideas-button-wrapper">
-          <button class="section-ideas-button">See All</button>
-          <img class="section-ideas-button-arrow" src="/img/button-arrow.svg" alt="arrow">
-        </div>
-      </section>
-      <section class="section-looking">
-        <h2 class="section-looking-header section-header">Looking for anything else?</h2>
-        <div class="section-looking-search-wrapper">
-          <button class="section-looking-search-button">
-            <img class="section-looking-search-button-img" src="/img/input-button-search.svg" alt="search">
-          </button>
-          <input class="section-looking-search-input" type="text" placeholder="Search keyword">
-        </div>
-        <div class="prompt-button-wrapper">
-          <button class="prompt-button">iPhone</button>
-          <button class="prompt-button">Charger</button>
-          <button class="prompt-button">Gift</button>
-          <button class="prompt-button">Google Pixel 3</button>
-          <button class="prompt-button">Keyboard</button>
-          <button class="prompt-button">13 Pro Max</button>
-          <button class="prompt-button">iPhone 12</button>
-          <button class="prompt-button">Laptop</button>
-          <button class="prompt-button">Mobile</button>
-        </div>
-        <div class="section-looking-content-wrapper">
-          <h2 class="section-looking-content-header section-header">Never miss a thing</h2>
-          <p class="section-looking-content-text">Sign up for texts to be notified about our best offers on the perfect
-            gifts.</p>
-          <img class="section-looking-content-img" src="/img/notebook-watch-phone.png" alt="notebook">
-          <div class="section-looking-content-email-wrapper">
-            <input class="section-looking-content-email-input" type="email" placeholder="Your email">
-            <button class="section-looking-content-email-button">Sign up</button>
+          <div class="section-recent-content-block">
+            <img class="section-recent-content-block-img" src="./img/main/img-6.jpg" alt="">
+            <p class="section-recent-content-block-text-bold section-recent-img-4">Light Ambience Sepia Design
+            </p>
+            <span class="section-recent-content-block-text">Scandinavian</span>
+            <div class="section-recent-content-block-arrow-wrapper">
+              <img class="section-recent-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+            </div>
           </div>
         </div>
       </section>
+      <div class="numbers-block-wrapper">
+        <div class="numbers-block numbers-block-1">
+          <h2 class="numbers-block-header">12</h2>
+          <p class="numbers-block-text">Years Of Experiance</p>
+        </div>
+        <div class="numbers-block numbers-block-2">
+          <h2 class="numbers-block-header">5K</h2>
+          <p class="numbers-block-text">Success Project</p>
+        </div>
+        <div class="numbers-block numbers-block-3">
+          <h2 class="numbers-block-header">1K</h2>
+          <p class="numbers-block-text">Active Project</p>
+        </div>
+        <div class="numbers-block numbers-block-4">
+          <h2 class="numbers-block-header">4K</h2>
+          <p class="numbers-block-text">Happy Customers</p>
+        </div>
+      </div>
+      <section class="section-blogs">
+        <h2 class="section-blogs-header">Recent Blogs</h2>
+        <p class="section-blogs-text">Get updates about our latest trends and techniques used in interior design project
+          works.</p>
+        <div class="section-blogs-content">
+          <div class="section-blogs-block">
+            <img class="section-blogs-block-img" src="./img/main/img-recent-1.jpg" alt="img-recent-1">
+            <p class="section-blogs-text-absolute">Kitchen Design</p>
+            <div class="section-blogs-block-text-wrapper">
+              <h2 class="section-blogs-block-text-header">Residential Interior Designer In New York, USA</h2>
+              <p class="section-blogs-block-text">November 23, 2021</p>
+              <div class="section-blogs-content-block-arrow-wrapper">
+                <img class="section-blogs-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="section-blogs-block">
+            <img class="section-blogs-block-img" src="./img/main/img-recent-2.jpg" alt="img-recent-2">
+            <p class="section-blogs-text-absolute">Living Room</p>
+            <div class="section-blogs-block-text-wrapper">
+              <h2 class="section-blogs-block-text-header">How To Choose The Best Wall Art & Decor House?</h2>
+              <p class="section-blogs-block-text">November 23, 2021</p>
+              <div class="section-blogs-content-block-arrow-wrapper">
+                <img class="section-blogs-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="section-blogs-block">
+            <img class="section-blogs-block-img" src="./img/main/img-recent-3.jpg" alt="img-recent-3">
+            <p class="section-blogs-text-absolute">Minimalist Interior</p>
+            <div class="section-blogs-block-text-wrapper">
+              <h2 class="section-blogs-block-text-header">Tips To Increase The Interior Value Of Your House</h2>
+              <p class="section-blogs-block-text">November 23, 2021</p>
+              <div class="section-blogs-content-block-arrow-wrapper">
+                <img class="section-blogs-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="section-blogs-block margin-top-block">
+            <img class="section-blogs-block-img" src="./img/main/img-recent-4.jpg" alt="img-recent-4">
+            <p class="section-blogs-text-absolute">Kitchen Design</p>
+            <div class="section-blogs-block-text-wrapper">
+              <h2 class="section-blogs-block-text-header section-blogs-block-text-header-1">Best Solution For Any Office
+                & Business Interior</h2>
+              <p class="section-blogs-block-text">November 23, 2021</p>
+              <div class="section-blogs-content-block-arrow-wrapper">
+                <img class="section-blogs-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="section-blogs-block margin-top-block">
+            <img class="section-blogs-block-img" src="./img/main/img-recent-5.jpg" alt="img-recent-5">
+            <p class="section-blogs-text-absolute">Living Room</p>
+            <div class="section-blogs-block-text-wrapper">
+              <h2 class="section-blogs-block-text-header section-blogs-block-text-header-2">Get Solution For Building
+                Construction Work</h2>
+              <p class="section-blogs-block-text">November 23, 2021</p>
+              <div class="section-blogs-content-block-arrow-wrapper">
+                <img class="section-blogs-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="section-blogs-block margin-top-block">
+            <img class="section-blogs-block-img" src="./img/main/img-recent-6.jpg" alt="img-recent-6">
+            <p class="section-blogs-text-absolute">Minimalist Interior</p>
+            <div class="section-blogs-block-text-wrapper">
+              <h2 class="section-blogs-block-text-header section-blogs-block-text-header-3">Attain The Best Finish For
+                The Kitchen Cabinets</h2>
+              <p class="section-blogs-block-text">November 23, 2021</p>
+              <div class="section-blogs-content-block-arrow-wrapper">
+                <img class="section-blogs-content-block-arrow" src="./img/main/button-arrow-3.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="block-wanna">
+        <h2 class="block-wanna-header">Wanna join the interno?</h2>
+        <p class="block-wanna-text">Contact Us & Get a Free Consultation</p>
+        <div class="block-wanna-button-wrapper">
+          <button class="block-wanna-button">Connect With us</button>
+          <img class="block-wanna-arrow" src="./img/main/button-arrow.svg" alt="button-arrow">
+        </div>
+      </div>
     </main>
     <footer class="footer">
-      <nav class="footer-navigate">
-        <div class="footer-logo-wrapper">
-          <img class="footer-logo" src="/img/logo.svg" alt="logo">
-          <p class="footer-logo-text">Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+      <div class="footer-content-wrapper">
+        <div class="footer-content-logo-wrapper">
+          <img class="footer-logo" src="./img/header/logo.svg" alt="footer-logo">
+          <p class="footer-logo-text">We are the leading architect and interior design firm in the world.</p>
+          <div class="footer-social-wrapper">
+            <a class="footer-social-link" href="https://www.facebook.com/"><img class="footer-social-link-img"
+                src="./img/footer/facebook.svg" alt="facebook"></a>
+            <a class="footer-social-link" href="https://twitter.com/"><img class="footer-social-link-img"
+                src="./img/footer/twitter.svg" alt="twitter"></a>
+            <a class="footer-social-link" href="linkedin.com"><img class="footer-social-link-img"
+                src="./img/footer/linkedin.svg" alt="linkedin"></a>
+            <a class="footer-social-link" href="www.instagram.com"><img class="footer-social-link-img"
+                src="./img/footer/instagram.svg" alt="instagram"></a>
+          </div>
         </div>
-        <ul class="footer-text-wrapper">
-          <li class="footer-text-header">All products</li>
-          <li class="footer-text"><a href="">Phones</a></li>
-          <li class="footer-text"><a href="">Watch</a></li>
-          <li class="footer-text letter-spacing-footer"><a href="">Tablet</a></li>
-          <li class="footer-text"><a href="">Laptops</a></li>
+        <ul class="footer-pages">
+          <li class="footer-element-bold">Pages</li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Style Guide</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Protected</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Licenses</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Changelog</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">404</a></li>
         </ul>
-        <ul class="footer-text-wrapper">
-          <li class="footer-text-header">Company</li>
-          <li class="footer-text letter-spacing-footer"><a href="">About</a></li>
-          <li class="footer-text"><a href="">Support</a></li>
+        <ul class="footer-explore">
+          <li class="footer-element-bold">Explore</li>
+          <li class="footer-text-element"><a class="footer-element" href="#">About Us</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Recent Blog</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Pricing Plan</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Our Projects</a></li>
+          <li class="footer-text-element"><a class="footer-element" href="#">Contact Us</a></li>
         </ul>
-        <ul class="footer-text-wrapper">
-          <li class="footer-text-header">Support</li>
-          <li class="footer-text"><a href="">Style Guide</a></li>
-          <li class="footer-text"><a href="">Licensing</a></li>
-          <li class="footer-text"><a href="">Change Log</a></li>
-          <li class="footer-text letter-spacing-footer"><a href="">Contact</a></li>
-        </ul>
-        <ul class="footer-text-wrapper">
-          <li class="footer-text-header">Follow Us</li>
-          <li class="footer-text"><a href="">Instagram</a></li>
-          <li class="footer-text letter-spacing-footer"><a href="">Facebook</a></li>
-          <li class="footer-text"><a href="">LinkedIn</a></li>
-          <li class="footer-text"><a href="">Youtube</a></li>
-        </ul>
-      </nav>
+        <div class="footer-contact">
+          <p class="footer-element-bold">Contact</p>
+          <p class="footer-text-element footer-element">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p>
+          <p class="footer-text-element footer-element">contact@interno.com</p>
+          <p class="footer-text-element footer-element">(123) 456 - 7890</p>
+        </div>
+      </div>
+      <div class="footer-horizontal-line"></div>
+      <div class="footer-copyright">
+        <p class="footer-text-copyright">Copyright © Interno | Designed by</p>
+        <p class="footer-text-copyright footer-gold-tex">Victorflow</p>
+        <p class="footer-text-copyright">Templates - Powered by</p>
+        <p class="footer-gold-text">Webflow</p>
+      </div>
     </footer>
   </div>
 </body>

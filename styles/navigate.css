@@ -1,0 +1,29 @@
+.navigate {
+  display: flex;
+  align-items: center;
+  max-width: 516px;
+  flex-grow: 1;
+  height: 61.52px;
+  padding-top: 0.16vw;
+  padding-right: 0.18vw;
+  box-sizing: border-box;
+}
+
+.nav-element-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: var(--font-jost);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-19);
+  line-height: var(--line-height-30);
+  letter-spacing: var(--letter-0_4);
+  color: var(--color-292F36);
+}
+
+.text-gold {
+  color: var(--color-CDA274);
+}

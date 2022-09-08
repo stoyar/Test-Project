@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 0.93vw;
+  padding: 0 6.237vw;
+  width: 74.9vw;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  height: 2.60vw;
+}

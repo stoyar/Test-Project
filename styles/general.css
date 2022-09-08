@@ -1,0 +1,102 @@
+:root {
+  /* colors */
+  --color-CDA274: #CDA274;
+  --color-292F36: #292F36;
+  --color-4D5053: #4D5053;
+  --color-F4F0EC: #F4F0EC;
+  --color-white: #FFFFFF;
+  --color-E5E5E5: #E5E5E5;
+  /* font-family */
+  --font-jost: 'Jost', sans-serif;
+  --font-DM: 'DM Serif Display', serif;
+  /* font-weight */
+  --font-weight-400: 400;
+  /* font-size */
+  --font-size-15: 0.78rem;
+  --font-size-16: 0.832rem;
+  --font-size-18: 0.936rem;
+  --font-size-19: 1rem;
+  --font-size-20: 1.04rem;
+  --font-size-22: 1.144rem;
+  --font-size-24: 1.248rem;
+  --font-size-25: 1.3rem;
+  --font-size-45: 2.34rem;
+  --font-size-47: 2.444rem;
+  --font-size-48: 2.496rem;
+  --font-size-50: 2.6rem;
+  --font-size-80: 4.16rem;
+  --font-size-85: 4.42rem;
+
+
+  /* line-height */
+  --line-height-24: 1.26vw;
+  --line-height-27: 1.41vw;
+  --line-height-30: 1.57vw;
+  --line-height-33: 1.72vw;
+  --line-height-35: 1.78vw;
+  --line-height-37_5: 1.96vw;
+  --line-height-39: 2.04vw;
+  --line-height-58_5: 3.07vw;
+  --line-height-62_4: 3.27vw;
+  --line-height-65: 3.4vw;
+  --line-height-75: 3.9vw;
+  --line-height-96: 5vw;
+  --line-height-127_5: 6.69vw;
+
+  /* letter-spacing */
+  --letter-0_4: 0.4px;
+  --letter-0_22: 0.22px;
+  --letter-0_36: 0.36px;
+  --letter-0_5: 0.5px;
+  --letter-0_72: 0.72px;
+  --letter-1_7: 1.7px;
+  /* border-radius */
+  --border-radius-18: 18px;
+  --border-radius-30: 30px;
+  --border-radius-62: 62px;
+  --border-radius-70: 70px;
+}
+
+html {
+  font-size: 1vw;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 1.5vw;
+  }
+}
