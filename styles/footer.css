@@ -1,0 +1,130 @@
+/* FOOTER */
+.footer {
+  margin-top: 120px;
+  height: 455px;
+  background-image: url(../img/footer/Group\ 22.png);
+  padding: 0 100px;
+}
+
+/* FOOTER-SECTION-1 */
+.footer-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 174px;
+}
+
+.footer-text {
+  width: 50%;
+  height: 69px;
+}
+
+.footer-text-header {
+  margin: 0;
+  font-weight: var(--font-weight-700);
+  font-size: 18px;
+  line-height: 24.55px;
+}
+
+.footer-text-paragraph {
+  margin: 0;
+  font-weight: var(--font-weight-400);
+  font-size: 16px;
+  line-height: 21.82px;
+}
+
+.footer-form {
+  display: flex;
+  height: 40px;
+  max-width: 448px;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+
+.form-input {
+  height: 40px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding-left: 16px;
+  font-weight: var(--font-weight-400);
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-AFAFAF);
+  border: 1px solid var(--color-DAA520);
+  border-radius: 4px 0 0 4px;
+}
+
+.form-button{
+  width: 120px;
+  height: 40px;
+  background-color: var(--color-DAA520);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: var(--font-weight-600);
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+/* FOOTER-SECTION-2 */
+.footer-navigation {
+  height: 247px;
+  margin-top: 34px;
+}
+
+.line-gray {
+  background-color: var(--color-C4C4C4)!important;
+  max-width: 708px;
+  margin-bottom: 24px;
+}
+
+/* footer-navigate */
+.padding-0 {
+  padding: 0;
+}
+
+.wrapper-footer-logo {
+  display: flex;
+}
+
+.margin-bottom-footer-list {
+  margin-bottom: 16px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 708px;
+}
+
+.list-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.list-bold {
+  font-weight: var(--font-weight-600);
+  font-size: 18px;
+  line-height: 24.55px;
+  color: var(--color-333333);
+}
+
+.list-element {
+  color: var(--color-8D8D8D);
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: var(--font-weight-400);
+}
+
+.copywriting {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 0;
+  color: var(--color-8D8D8D);
+  font-weight: var(--font-weight-600);
+  font-size: 12px;
+  line-height: 16px;
+}
+

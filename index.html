@@ -6,88 +6,252 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/navigate.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/universal.css">
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="header">
-      <img class="logo" src="/img/travel-logo.png" alt="logo">
-      <nav class="navigate">
-        <ul class="navigate-wrapper">
-          <li class="navigate-element"><a class="navigate-link" href="">LOREM</a></li>
-          <li class="navigate-element"><a class="navigate-link" href="">LOREM</a></li>
-          <li class="navigate-element"><a class="navigate-link" href="">LOREM</a></li>
-          <li class="navigate-element"><a class="navigate-link" href="">LOREM IPSUM</a></li>
-        </ul>
-      </nav>
-      <div  class="login-button-wrapper">
-        <button class="login-button">SIGN-IN</button>
+  <div class="wrapper" id="home">
+    <nav class="navigate">
+      <div class="nav-logo-wrapper">
+        <img class="nav-logo" src="./img/universal/logo.png" alt="flower-logo">
+        <p class="nav-logo-text">WOODIES</p>
       </div>
+      <ul class="nav-link-wrapper">
+        <li class="navigate-element hover-li"><a class="home-button orange-link hover-a" href="#home">Home</a></li>
+        <li class="navigate-element hover-li"><a class="color-link-nav hover-a" href="#about">About Us</a></li>
+        <li class="navigate-element hover-li"><a class="color-link-nav hover-a" href="#how_it">How it works</a></li>
+        <li class="navigate-element hover-li"><a class="color-link-nav hover-a" href="#categories">Categories</a></li>
+        <li class="navigate-element hover-li"><a class="color-link-nav hover-a" href="#testimony">Testimony</a></li>
+        <li><button class="nav-button"> SIGN UP</button></li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="header-wrapper">
+        <p class="header-text-p">Are you looking for <span class="font-weight-bold-header">woodden furniture</span> for
+          your place?</p>
+        <h1 class="header-text-h1">This is the Right Place</h1>
+        <button class="header-button">Explore Furniture</button>
+      </div>
+
+      <div class="pink-block"></div>
+      <img class="coffee-table" src="./img/header/small-coffee-table.png" alt="table">
+      <img class="flower-logo" src="./img/universal/Group-25.png" alt="flower-logo">
     </header>
+
     <main class="main">
-      <section class="lorem-ipsum-1">
-        <h1 class="lorem-ipsum-1-header">Lorem Ipsum</h1>
-        <p class="lorem-ipsum-1-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+      <section class="about-us-section" id="about">
+        <div class="section-header-wrapper">
+          <img class="logo-section" src="./img/universal/logo.svg" alt="flower-logo">
+          <h3 class="section-header">Who we are</h3>
+          <span class="line"></span>
+          <p class="section-header-text">ABOUT US</p>
+        </div>
+        <img class="wood-bowls-img" src="./img/main/Kalmar-Home.png" alt="wood-bowls">
+        <img class="set-spoons" src="./img/main/Steel-Spoon-Set.png" alt="steel">
+        <img class="flower-img-about" src="./img/universal/Group-25.png" alt="flower-img">
+        <div class="about-first-text">
+          <h3 class="about-first-text-header">WOODIES <span class="font-weight-400">is the</span> home of modern wooden
+            furniture</h3>
+          <p class="about-first-text-paragraph">the answer to your need for furniture with shapes, sizes and colors.
+          </p>
+        </div>
+        <div class="about-last-text">
+          <h3 class="about-last-text-header"><span class="font-weight-400">Customized furniture</span> made just for you
+          </h3>
+          <p class="about-last-text-paragraph">Get it easy to adjust furniture to the shape and size of your dwelling or
+            business.</p>
+        </div>
       </section>
-      <section class="lorem-ipsum-2">
-        <h1 class="lorem-ipsum-2-header">Lorem</h1>
-        <p class="lorem-ipsum-2-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500.Lorem Ipsum is simply dummy text
-          of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-      </section>
-      <section class="lorem-ipsum-3">
-        <h2 class="lorem-ipsum-3-header">Country</h2>
-        <div class="lorem-ipsum-3-wrapper">
-          <div class="lorem-ipsum-3-content">
-            <div class="lorem-ipsum-3-img lorem-ipsum-3-img-1"></div>
-            <h5 class="lorem-ipsum-3-img-header">USA</h5>
-            <p class="lorem-ipsum-3-img-text">Lorem Ipsum has been the industry's</p>
+
+      <section class="how-it-section" id="how-it">
+        <div class="section-header-wrapper">
+          <img class="logo-section" src="./img/universal/logo.svg" alt="flower-logo">
+          <h3 class="section-header">How to custom</h3>
+          <span class="line"></span>
+          <p class="section-header-text">HOW IT WORKS</p>
+        </div>
+
+        <div class="how-it-section-content-wrapper">
+          <div class="section-img-text-wrapper">
+            <div class="section-two-image-wrapper">
+              <p class="image-number number-1">1</p>
+              <img class="how-it-img-1 how-it-img" src="./img/main/Group1.svg" alt="desktop">
+            </div>
+            <p class="how-it-section-text">Choose Design</p>
           </div>
-          <div class="lorem-ipsum-3-content">
-            <div class="lorem-ipsum-3-img lorem-ipsum-3-img-2"></div>
-            <h5 class="lorem-ipsum-3-img-header">SPANISH</h5>
-            <p class="lorem-ipsum-3-img-text">Lorem Ipsum has been the industry's</p>
+
+          <div class="section-img-text-wrapper">
+            <div class="section-two-image-wrapper">
+              <p class="image-number number-2">2</p>
+              <img class="how-it-img-2 how-it-img" src="./img/main/Group2.svg" alt="scale">
+            </div>
+            <p class="how-it-section-text">Area measuring</p>
           </div>
-          <div class="lorem-ipsum-3-content">
-            <div class="lorem-ipsum-3-img lorem-ipsum-3-img-3"></div>
-            <h5 class="lorem-ipsum-3-img-header">TURKISH</h5>
-            <p class="lorem-ipsum-3-img-text">Lorem Ipsum has been the industry's</p>
+
+          <div class="section-img-text-wrapper">
+            <div class="section-two-image-wrapper">
+              <p class="image-number number-3">3</p>
+              <img class="how-it-img-3 how-it-img" src="./img/main/Group3.svg" alt="calculator">
+            </div>
+            <p class="how-it-section-text">Budgeting</p>
+          </div>
+
+          <div class="section-img-text-wrapper">
+            <div class="section-two-image-wrapper">
+              <p class="image-number number-4">4</p>
+              <img class="how-it-img-4 how-it-img" src="./img/main/Group4.svg" alt="builder">
+            </div>
+            <p class="how-it-section-text">Production</p>
           </div>
         </div>
-        <button class="lorem-ipsum-3-button">LOREM IPSUM</button>
+        <button class="how-it-section-button">Get Personalized Now</button>
       </section>
-      <section class="lorem-ipsum-4">
-        <h1 class="lorem-ipsum-4-header">Lorem</h1>
-        <p class="lorem-ipsum-4-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500.Lorem Ipsum is simply dummy text
-          of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-        <input class="lorem-ipsum-4-email" type="email" placeholder="Enter Email">
+
+      <section class="categories-section" id="categories">
+        <div class="section-header-wrapper">
+          <img class="logo-section" src="./img/universal/logo.svg" alt="flower-logo">
+          <h3 class="section-header">What we have</h3>
+          <span class="line"></span>
+          <p class="section-header-text">CATEGORIES</p>
+        </div>
+
+        <div class="section-categories-furniture-wrapper">
+          <div class="furniture-section-1">
+            <div class="furniture color-pink">
+              <p class="furniture-text">Desk</p>
+              <img class="desk" src="./img/main/Konfest-PNG-Jtables.png" alt="desk">
+              <button class="furniture-button">Shop Now</button>
+            </div>
+            <div class="furniture peach-color">
+              <p class="furniture-text">Chair</p>
+              <img class="chair align-self-center" src="./img/main/chair.png" alt="chair">
+              <button class="furniture-button">Shop Now</button>
+            </div>
+            <div class="furniture color-turquoise">
+              <p class="furniture-text">Kitchenware</p>
+              <img class="kitchenware align-self-center" src="./img/main/bowls.png" alt="kitchenware">
+              <button class="furniture-button">Shop Now</button>
+            </div>
+          </div>
+          <div class="furniture-section-2">
+            <div class="furniture color-pink">
+              <p class="furniture-text">Book Shelf</p>
+              <img class="book-shelf align-self-center" src="./img/main/shelf-bookcase.png" alt="book-shelf">
+              <button class="furniture-button">Shop Now</button>
+            </div>
+            <div class="furniture peach-color">
+              <p class="furniture-text">Electronics</p>
+              <img class="electronics align-self-center" src="./img/main/Vintage-Radio.png" alt="electronics">
+              <button class="furniture-button">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimony-section" id="testimony">
+        <div class="section-header-wrapper">
+          <img class="logo-section" src="./img/universal/logo.svg" alt="flower-logo">
+          <h3 class="section-header">What they say</h3>
+          <span class="line"></span>
+          <p class="section-header-text">TESTIMONY</p>
+        </div>
+        <div class="testimony-section-content-wrapper">
+          <div class="image-social-wrapper">
+            <img class="apartment-img" src="./img/main/apartment-bed-bedroom.png" alt="apartment-bedroom">
+            <img class="apartment-img" src="./img/main/breakfast-contemporary-daylight.png" alt="apartment-kitchen">
+            <div class="social-block">
+              <div class="social-content-wrapper-1">
+                <div class="social-content-wrapper-2">
+                  <div class="stars-wrapper">
+                    <p class="star">&#9733;</p>
+                    <p class="star">&#9733;</p>
+                    <p class="star">&#9733;</p>
+                    <p class="star">&#9733;</p>
+                    <p class="star">&#9733;</p>
+                  </div>
+                  <p class="testimony-section-text">My experience with WOODIES is a complete success,
+                    from customed furniture, range of product,
+                    modern design, purchasing experience,
+                    the delivery and newsletter.
+                    Litterally everything is great. Thank you!</p>
+                  <img src="./img/main/social-user.png" alt="social-user">
+                </div>
+              </div>
+              <div class="arrow-wrapper">
+                <p class="arrow-left">&larr; Previous</p>
+                <p class="arrow-right">Next &rarr;</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-wrapper">
+            <span class="slider orange"></span>
+            <span class="slider"></span>
+            <span class="slider"></span>
+            <span class="slider"></span>
+          </div>
+        </div>
       </section>
     </main>
+
     <footer class="footer">
-      <div class="footer-content-wrapper">
+      <div class="footer-form-wrapper">
+        <div class="footer-text">
+          <h3 class="footer-text-header">Subscribe to our newsletter</h3>
+          <p class="footer-text-paragraph">A monthly digest of the new WOODIES products, hot offers, and resources.</p>
+        </div>
+        <form class="footer-form">
+          <input class="form-input" placeholder="Your email address" type="text">
+          <button class="form-button">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-navigation">
+        <div class="line line-gray"></div>
         <div class="footer-content">
-          <nav class="footer-navigate">
-            <ul class="footer-link-wrapper">
-              <li class="footer-navigate-element"><a class="footer-link" href="#">LOREM</a></li>
-              <li class="footer-navigate-element"><a class="footer-link" href="#">LOREM</a></li>
-              <li class="footer-navigate-element"><a class="footer-link" href="#">LOREM</a></li>
-            </ul>
-          </nav>
-          <div class="social-link-wrapper">
-            <a class="social-link" href="#"><img class="social-img" src="/img/Shape-9.svg" alt="mail"></a>
-            <a class="social-link" href="#"><img class="social-img" src="/img/Shape-7.svg" alt="facebook"></a>
-            <a class="social-link" href="#"><img class="social-img" src="/img/Shape-8.svg" alt="twitter"></a>
-          </div>
+          <ul class="list-flex color-transparent">
+            <li class="wrapper-footer-logo margin-bottom-footer-list">
+              <img class="nav-logo" src="./img/universal/logo.png" alt="flower-logo">
+              <p class="nav-logo-text">WOODIES</p>
+            </li>
+            <li class="margin-bottom-footer-list list-element">(012) 8967453</li>
+            <li class="margin-bottom-footer-list list-element">woodies@gmail.com</li>
+            <li class="list-element">Jakarta, Indonesia</li>
+          </ul>
+          <ul class="list-flex">
+            <li class="margin-bottom-footer-list list-bold hover-li">Product</li>
+            <li class="margin-bottom-footer-list list-element hover-li">Furnitures</li>
+            <li class="margin-bottom-footer-list list-element hover-li">Packages</li>
+            <li class="list-element hover-li">Services</li>
+          </ul>
+          <ul class="list-flex">
+            <li class="margin-bottom-footer-list list-bold hover-li">Resources</li>
+            <li class="margin-bottom-footer-list list-element hover-li">Blog</li>
+            <li class="margin-bottom-footer-list list-element hover-li">FAQs</li>
+            <li class="list-element hover-li">Contact Us</li>
+          </ul>
+          <ul class="list-flex">
+            <li class="margin-bottom-footer-list list-bold hover-li">Company</li>
+            <li class="margin-bottom-footer-list list-element hover-li">About Us</li>
+            <li class="margin-bottom-footer-list list-element hover-li">Jobs</li>
+            <li class="list-element hover-li">Our Team</li>
+          </ul>
+          <ul class="list-flex">
+            <li class="margin-bottom-footer-list list-bold hover-li">Follow Us</li>
+            <li class="margin-bottom-footer-list list-element hover-li">Facebook</li>
+            <li class="margin-bottom-footer-list list-element hover-li">Instagram</li>
+            <li class="list-element hover-li">Twitter</li>
+          </ul>
         </div>
-        <div class="footer-line"></div>
-        <div class="footer-copyright">
-          <p class="footer-copyright-text">Privacy Policy | Terms and Conditions | © Company.LLC 2014</p>
-        </div>
+        <p class="copywriting">© 2020 WOODIES</p>
       </div>
     </footer>
   </div>

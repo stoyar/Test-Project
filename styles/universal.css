@@ -1,0 +1,32 @@
+.section-header-wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.logo-section {
+  width: var(--logo-width-height);
+  height: var(--logo-width-height);
+}
+
+.section-header {
+  margin: 0;
+  margin-left: 8px;
+  font-weight: var(--font-weight-700);
+  font-size: 36px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--color-black);
+  margin-left: 16px;
+}
+
+.section-header-text {
+  margin: 0;
+  font-weight: var(--font-weight-800);
+  font-size: 72px;
+  color: var(--color-rgba-34343401);
+}
